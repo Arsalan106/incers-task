@@ -1,0 +1,273 @@
+
+        /*LOGO */
+        .logo {
+            padding: 0px;
+            margin-top: 0px;
+            margin-left: 150px;
+        }
+
+        .logo img {
+            position: absolute;
+            top: 5px;
+            width: 230px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        hr{
+            background-color: blue;
+            border-color: rgb(226, 208, 219);
+            
+        }
+        /* middle of navbar */
+        .container ul {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+
+        }
+
+        .container ul li {
+            list-style: none;
+            padding-left: 80px;
+            padding-right: 140px;
+            font-size: 70px;
+            color: rgb(102, 67, 67);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                'Trebuchet MS', sans-serif;
+        }
+        .container ul li:hover{
+            cursor: pointer;
+        }
+
+        /* left of navbar */
+
+        .container-2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 150px;
+            margin-top: 49px;
+        }
+        .container-2 li {
+            list-style: none;
+            padding-right: 110px;
+            font-size: 70px;
+            padding-left: 10px;
+            padding-right: 200px;
+            color: rgb(102, 67, 67);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                'Trebuchet MS', sans-serif;
+        }
+        .container-2 li{
+            cursor: pointer;
+        }
+
+        .profile-pic {
+            
+            padding: 0px;
+            position: absolute;
+            top: 35px;
+            right: 100px;
+            align-items: center;
+
+
+        }
+
+        /* main  */
+
+        .main-content {
+            display: flex;
+          
+        }
+
+        .details-box {
+            background-color: rgb(240, 247, 247);
+            width: 50%;
+            height: 63%;
+            position: absolute;
+            top: 335px;
+            margin-left: 400px;
+        }
+
+        .details-box ul {
+            display: flex;
+            margin-top: 50px;
+            justify-content: center;
+        }
+
+        .summary-box {
+            margin-right: 10%;
+            position: absolute;
+            right: 0px;
+            top: 335px;
+            height: 67%;
+            background-color: rgb(240, 247, 247);
+            width: 20%;
+        }
+
+        .details-box ul li {
+            list-style: none;
+            padding-left: 200px;
+            padding-right: 225px;
+            font-size: 51px;
+        }
+        .details-box ul li{
+            cursor: pointer;
+        }
+
+        h3 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-left: 786px;
+            margin-top: 85px;
+
+        }
+
+        h2 {
+            color: #895b5b;
+            font-size: 40px;
+            font-weight: 300;
+            margin-left: 786px;
+            margin-top: 85px;
+        }
+
+        .email {
+            font-size: 40px;
+            /* font-weight: bold; */
+            margin-left: 786px;
+            margin-top: 85px;
+            width: 50%;
+            height: 7%;
+            padding-left: 55px;
+            position: absolute;
+            background-color: rgb(193, 226, 226);
+            top: 320px;
+            border: none;
+        }
+
+        .password {
+            font-size: 40px;
+            margin-left: 786px;
+            margin-top: 85px;
+            width: 50%;
+            height: 7%;
+            padding-left: 55px;
+            position: absolute;
+            top: 600px;
+            background-color: rgb(193, 226, 226);
+            color: black;
+            border: none;
+        }
+
+        #pass {
+            position: absolute;
+            top: 540px;
+
+        }
+
+        #summary {
+            margin-left: 8px;
+            font-size: 60px;
+            font-weight: bold;
+            color: black;
+        }
+
+        h4 {
+
+            font-size: 50px;
+            font-weight: 100;
+            color: #850707;
+        }
+
+        .register {
+
+            position: absolute;
+            top: 43%;
+            left: 53%;
+            display: flex;
+        }
+
+        
+        .btn {
+
+            justify-content: center;
+            position: relative;
+            align-items: center;
+            top: 24%;
+            left: 127rem;
+            display: flex;
+            width: 10%;
+            height: 7%;
+            font-size: 38px;
+            background-color: rgb(117, 117, 192);
+            color: white;
+            border: none;
+            border-radius: 22px;
+            box-shadow: 0px 11px 15px 0px rgb(199 156 156);
+        }
+        .btn:hover{
+            cursor: pointer;
+        }
+
+        h5 {
+            font-size: 4rem;
+        }
+
+        .blank {
+
+            width: 50rem;
+            height: 6.8rem;
+            background-color: rgb(188, 220, 220);
+            border: none;
+        }
+
+        .Apply {
+
+            width: 20rem;
+            height: 6.9rem;
+            font-size: 2.3rem;
+            border-color: blue;
+            background-color: white;
+            border-radius: 1rem;
+            margin-left: 40px;
+
+        }
+
+        .Apply:hover{
+            cursor: pointer;
+        }
+        /* Footer */
+
+        .footer {
+            display: flex;
+            position: absolute;
+            top: 74%;
+            width: 99.7%;
+            height: 26%;
+            background-color: rgb(179, 205, 179);
+            justify-content: space-around;
+
+        }
+
+        .contact h1 {
+            font-size: 100px;
+        }
+
+        .direction h1 {
+            font-size: 100px;
+        }
+        .social {
+            margin-right: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 250px;
+        }
+        .social img {
+            margin-right: 150px;
+            height: 180px;
+        }
